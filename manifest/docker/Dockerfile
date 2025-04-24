@@ -21,7 +21,7 @@ WORKDIR                       $WORKDIR
 RUN apk update \
     && apk add git \
     && npm install -g pnpm \
-    && git clone https://github.com/it00021hot/HeyGem.ai.git -b web
+    && git clone https://github.com/huerdao7788/HeyGem.ai.git -b web
 
 
 RUN  cd HeyGem.ai \
